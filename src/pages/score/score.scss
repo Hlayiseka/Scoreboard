@@ -1,0 +1,62 @@
+page-score {
+
+    .home{
+        margin: auto;
+        background-image: url(../../assets/imgs/image2.jpg);
+        background-size: cover;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+    #box1{
+        flex: 14;
+        margin: 1em;
+        margin: auto;
+    }
+    #box2{
+        flex: 1;
+        margin: 1em;
+        margin: auto;
+    }
+    // #box2{
+    //     flex: 1;
+    //     margin: 1em;
+    //     width: 100px;
+    // }
+    #teams{
+        display: flex;
+        height: 300px;
+        margin: auto;
+        background-color: transparent;
+    }
+    .flex > div{
+        margin: 1em;
+    }
+    .team1{
+        flex: 4;
+        background-color: transparent;
+        margin: auto;
+        height: 100px;
+        flex-grow: floor($number: 5);
+    }
+    .team .team2{
+        flex: 1;
+        background-color: transparent;
+        flex-grow: floor($number: 2);
+        height: 100px;
+        margin: auto;
+        width: 100px;
+    }
+    img{
+        height: 100px;
+    }
+    .goal{
+        margin: auto;
+    }
+    .team{
+        display: flex;
+        margin: auto;
+        width: 300px;
+    }
+}

@@ -1,0 +1,40 @@
+page-home {
+    .home{
+        margin: auto;
+        background-image: url(../../assets/imgs/img.jpg);
+        background-size: cover;
+        height: 100%;
+        flex: 1;
+        display: flex;
+    }
+    button{
+        margin: auto;
+        height: 30px;
+        width: 150px;
+    }
+    .text{
+        // margin: auto;
+        margin-top: 20px;
+        width: 90%;
+        margin: 0.1em;
+        display: flex;
+        flex: 1;
+    }
+    .getS{
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        background-color: transparent;
+        border: none;
+    }
+    .box{
+        display: flex;
+        
+    }
+    .box .box-1 {
+        text-align: center;
+        flex: 1;
+
+
+    }
+}
